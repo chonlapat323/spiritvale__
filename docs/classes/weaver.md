@@ -42,6 +42,37 @@ Icebolt, Firebolt, Weaver Mastery, Piercing Flurry, Strafing Volley, Venom Strik
 
 ---
 
+## 🎒 ชุดอุปกรณ์แนะนำ (ช่วง Lv 130-145)
+
+### Arcane Set — เกราะหลัก (4 ชิ้น, คราฟต์ที่ Starfall Tundra ด้วย Candy Cane x200/ชิ้น)
+
+| ชิ้น | Stat | Bonus พิเศษ |
+|---|---|---|
+| Arcane Chest | Def+5(+1/lv), Mdef+20(+1/lv) | **Mp+20%, Mp Regen+100%** |
+| Arcane Legs | Def+2(+1/lv), Mdef+10(+1/lv) | Mp Regen+20%, Matk+3%, Atk+3% |
+| Arcane Boots | Def+2(+1/lv), Mdef+10(+1/lv) | Move Spd+10%, ร่ายไม่โดนขัดจังหวะ, Free Cast Lv.3 |
+| Arcane Gloves | Def+1(+1/lv) | Grants Lv.5 Heal ฟรี, Grants Lv.5 Haste ฟรี |
+
+> [!TIP]
+> เข้ากับ build นี้มาก — Mp Regen รวมกัน 120%+ ตรงจุดคอขวดของ Thunder Storm (มานา 30+15/lv) แถม Free Cast/uninterruptible cast ทำให้สแปมสกิลได้ลื่นไม่โดนขัดจังหวะ
+
+**ดรอปจาก:** Mega Ice Golem (บอส Lv140), Vanilla Ice (133), Twinkle (135), Festive Baby (132), Shadow Ice (134) — ทั้งหมดอยู่โซน Starfall Tundra ตรงกับช่วงเลเวลที่เพิ่งเปลี่ยนเป็น Weaver พอดี
+
+### อาวุธ: Skybreaker Staff (Wind Staff, 3 slots) — ตัวเทพสำหรับ build นี้โดยเฉพาะ
+
+- Atk+5(+0.5/lv), **Matk+25(+2.5/lv)**
+- Cast Speed+15%
+- **Thunder Storm Damage+15% (+2%/Lv)**
+- Thunder Storm Cast Time -1
+- Thunder Storm ไม่มี autocast delay
+
+ทำที่ Windy Desert ใช้ Foxtail 50 ชิ้น — ไม้เท้านี้แทบทำมาเพื่อ Thunder Storm build ตรงๆ ควรหามาใส่เป็นอันดับแรก
+
+> [!NOTE]
+> ชุด Arcane ไม่มี headgear ในเซ็ต — เช็ค Mystic Hood แล้วแต่เป็นไอเทมที่ "เพิ่มดาเมจที่รับจากธาตุ Holy/Shadow/Undead/Poison" (ข้อเสีย ไม่ใช่ข้อดี) ไม่แนะนำ ยังไม่เจอหมวกที่เข้าทางสายนี้ชัดเจน ต้องหาข้อมูลเพิ่ม
+
+---
+
 ## 🌟 Build ฟาร์ม (สายเวท) — แนะนำเป็นหลัก
 
 ```
