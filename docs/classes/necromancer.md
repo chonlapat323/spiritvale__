@@ -67,6 +67,28 @@ Utility: Life Drain, Soul Drain, Harvest, Reap, Death Nova, Death Spiral, Necrot
 
 ---
 
+## 🔄 Skill/Stat Reset — ยืนยันจากผู้เล่นจริง
+
+> [!TIP]
+> **มีระบบรีเซ็ตสกิลฟรีในเกม** (user-confirmed, ไม่มีในวิกิ) — มีคนบอกว่าอยู่ "ในเมือง" และ "ที่เสา" (จุดสังเกตกลางเมือง) ยังไม่ยืนยันชื่อเมือง/NPC ที่แน่ชัด แต่ **skill reset ฟรี** แปลว่าทดลองสลับ build ได้โดยไม่มีต้นทุนจม — ไม่ต้องกลัวลง point ผิดสาย เพราะรีกลับมาใหม่ได้
+>
+> ยังไม่ยืนยันว่า **stat reset** (STR/INT/VIT ฯลฯ) ฟรีเหมือนกันหรือคนละระบบกับ skill reset — ต้องเช็คเพิ่ม
+
+## 🗡️ Build ทางเลือก: สายกายภาพ (STR)
+
+> [!CAUTION]
+> ความเชื่อมั่นต่ำ — มีสกิลแค่ตัวเดียวที่ยืนยันว่า scale แบบ physical คือ **Bone Spear** (+0.67/lv) สกิลอื่นในคิท (Death Coil, Life Drain, Corpse Explosion, Soul Strike) ยังเป็นมานา/เวทล้วน ไปสายนี้แปลว่าสกิลส่วนใหญ่ในคลาส**ไม่ได้ประโยชน์จากสเตตที่ลงเลย** ต้องพึ่ง auto-attack + Bone Spear + มินเนี่ยนที่คาดว่า scale physical เป็นหลัก
+
+**สเตต:** STR หลัก, VIT รอง, DEX รองลงมา (ยังไม่ยืนยันผล)
+
+**มินเนี่ยนที่น่าจะเข้าทาง:** Summon Wolf (*"raw strength and speed"* — คาดว่า scale STR แต่ไม่ยืนยัน) + Summon Cactus (ถัง)
+
+**อาวุธ:** Bonefang (Dagger, Neutral, 3 slots) — อาวุธกายภาพตัวเดียวที่เจอในรายการเกียร์ธีม Necromancer (ตัวอื่นเป็น staff/book สายเวทหมด: Bone Channeler, Necronomicon, Wraithlight)
+
+**TODO:** เช็ค tooltip ในเกมของ Summon Wolf และ Bone Spear ว่าเขียนอิงสเตตชัดเจนไหม เพื่อยืนยันแทนการเดาจากคำบรรยาย
+
+---
+
 ## ⚔️ ตารางสกิลที่ยืนยันแล้ว
 
 | สกิล | ธาตุ | Max Lv | คูลดาวน์ | มานา | ดาเมจ/lv | ต้องเรียนก่อน |
