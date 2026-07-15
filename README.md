@@ -11,7 +11,8 @@ Source: https://spiritvalewiki.com/
 - [docs/tier-list.md](docs/tier-list.md) — theorycraft tier list (v1 pre-patch, v2 post-patch)
 - [docs/classes/paladin.md](docs/classes/paladin.md) — Paladin deep dive, skill chain, recommended build
 - [docs/classes/weaver.md](docs/classes/weaver.md) — Weaver deep dive, farm skill data, farm build
-- [docs/classes/other-classes.md](docs/classes/other-classes.md) — Berserker, Priest, Wizard, Shinobi, Gunslinger, Necromancer summaries
+- [docs/classes/necromancer.md](docs/classes/necromancer.md) — Summoner base class + Necromancer deep dive, Ghost element impact, gear research
+- [docs/classes/other-classes.md](docs/classes/other-classes.md) — Berserker, Priest, Wizard, Shinobi, Gunslinger summaries
 
 ## Status
 Day-1/early theorycraft — no community parses or hard damage numbers yet. Treat all tier rankings and build recommendations as provisional until verified in-game.

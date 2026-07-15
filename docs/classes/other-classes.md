@@ -1,6 +1,6 @@
 # Other Classes
 
-Brief profile + playstyle direction for the remaining advanced classes. Less deep-dived than [paladin.md](paladin.md) and [weaver.md](weaver.md) — no per-skill data (cooldown/mana/dmg) gathered yet for these.
+Brief profile + playstyle direction for the remaining advanced classes. Less deep-dived than [paladin.md](paladin.md), [weaver.md](weaver.md), and [necromancer.md](necromancer.md) — no per-skill data (cooldown/mana/dmg) gathered yet for these.
 
 ## Berserker
 From Warrior, Lv 26-30, Windy Desert. "A frenzied warrior who feeds on the fight itself, growing more dangerous the harder and bloodier it gets."
@@ -33,7 +33,4 @@ From Scout, Lv 31-35, Windy Desert North. "A deadeye gunner who rains rapid, ran
 **Playstyle direction:** Ranged burst + control hybrid, now with a Heavy Loadout (Launcher/Gatling) as a 3rd weapon set. Rewards players who like managing loadout swaps and building burst windows (stand still to stack Lockdown, then unload). Good pick if you want ranged combat with more decision-making than a straightforward nuker.
 
 ## Necromancer
-From Summoner, Lv 26-30, Festering Woods 2. "A dark summoner who commands the dead and drains the living, winning through attrition and decay."
-Skills: Abomination, Skeleton, Skeleton Mage, Wraith, Reanimation, Bone Spear, Bone Spikes, Death Coil, Corpse Explosion, Corpse Barrier, Life Drain, Soul Drain, Harvest, Reap, Death Nova, Death Spiral, Necrotic Presence
-
-**Playstyle direction:** Minion-based attrition + lifesteal — passive, sustained playstyle rather than active burst. Risk: minion AI/pathing quality is an unknown and could make or break this class in practice. Recently shifted to the new Ghost element (see [../patch-notes.md](../patch-notes.md)) — outcome (buff or nerf) depends on how common Ghost resistance turns out to be on monsters.
+Moved to its own deep-dive: see [necromancer.md](necromancer.md) — includes Summoner base-class skills, confirmed Necromancer skill data (Bone Spear, Death Coil, Life Drain, Corpse Explosion), the Ghost element patch impact, and early-game gear research.
