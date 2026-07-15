@@ -21,12 +21,40 @@
 
 **Grimoires:** Alpha Surge, Hexwell Current, Banishment Well, Resonant Wind, Blessed Resonance, Soul Chains
 
+> [!TIP]
+> ยืนยันจากสกรีนช็อตในเกมจริง (user-confirmed): สกิลทรี Summoner ตรงกับรายชื่อด้านบน 100% — max level ยืนยันแล้ว: Summon Angel/Cactus/Cat/Wolf = **3**, Summon Mastery = **10**, ที่เหลือ (Resonance Well, Suppression Field, Soul Strike, Banishment Field, Dissonance Well, Conjurer, Guardian Bond, True Sight, Fury Bond, Invoker) = **5** ทุกตัว. **Skeleton/Skeleton Mage/Abomination/Wraith เป็นสกิลเฉพาะ Necromancer เท่านั้น ไม่ปรากฏในสกิลทรี Summoner** — ต้องเปลี่ยนอาชีพที่ Lv26-30 ก่อนถึงจะเห็น
+
+### 🐾 มินเนี่ยนเบส Summoner (ก่อนเปลี่ยนอาชีพ)
+
+| มินเนี่ยน | บทบาท | คูลดาวน์ | มานา | Max Lv |
+|---|---|---|---|---|
+| 😈 Summon Cactus | ถังทน — "absorbs punishment and strikes back" | `30s` | `30` | 3 |
+| 🐱 Summon Cat | ดีลระยะไกล (สายฟ้า) | `30s` | `30` | 3 |
+| 🐺 Summon Wolf | ดุดันประชิด รวดเร็ว | `30s` | `30` | 3 |
+| 👼 Summon Angel | ฮีล + โจมตี Holy ในตัวเดียว | `30s` | `30` | 3 |
+
+> [!TIP]
+> คู่แนะนำช่วงยังเป็น Summoner: **Summon Cactus (ถัง) + Summon Cat (ดาเมจ)** — จำลองคอมโบ Skeleton+Skeleton Mage ที่จะได้ตอนเป็น Necromancer ล่วงหน้า สังเกตว่า CD ทุกตัวตอนนี้ **30s** ช้ากว่า Skeleton ของ Necromancer (10s) ถึง 3 เท่า — เป็นช่วง "รอเลื่อนขั้น" ก่อนได้ของดีกว่า
+
 ## 📜 Necromancer (advanced)
 
 Summon: Abomination, Skeleton, Skeleton Mage, Wraith, Reanimation
 Offense: Bone Spear, Bone Spikes, Death Coil, Corpse Explosion
 Defense: Corpse Barrier
 Utility: Life Drain, Soul Drain, Harvest, Reap, Death Nova, Death Spiral, Necrotic Presence
+
+### 💀 มินเนี่ยน Necromancer — เทียบกัน
+
+| มินเนี่ยน | บทบาท | Max Lv | คูลดาวน์ | มานา | ต้องเรียนก่อน |
+|---|---|---|---|---|---|
+| 🦴 **Skeleton (Soldier)** | แนวหน้า/ถังทน — "backbone of your undead army" | 3 | `10s` | `30` | Skeleton Mastery Lv1 |
+| 🔮 **Skeleton Mage** | ดีลดาเมจระยะไกล | 2 | `10s` | `30` | Skeleton Mastery Lv1 |
+| 🧟 **Abomination** | คุมพื้นที่/บรูตัวใหญ่ — "control space through brute force" | 1 | `10s` | `30` | Skeleton Mastery Lv1 |
+| 👻 **Wraith** | คาสเตอร์ระยะไกลกวนศัตรู | 3 | `30s` | `30` | Skeleton Mastery Lv1 |
+| ⚡ **Reanimation** | ผูกวิญญาณ**บอสที่ตายแล้ว**เป็นมินเนี่ยนของตัวเอง (เงื่อนไขพิเศษ ต้องมีศพบอส) | 1 | `1s` | `30` | Death Bond Lv1 |
+
+> [!TIP]
+> **คู่มาตรฐาน:** Skeleton (ถัง) + Skeleton Mage (ดีล) — CD เท่ากัน (10s) ราคาเท่ากัน คูลดาวน์ไวกว่าตัวเบส Summoner 3 เท่า (30s → 10s) ใช้ **Abomination** ตอนโดนรุมหนักๆ (max lv1 = ตัวพิเศษตายตัว ไม่อัพเลเวล) เก็บ **Wraith** ไว้เป็นตัวเสริมเพราะ CD ยาว 30s ไม่คุ้มใช้บ่อย. **Corpse Explosion** (CD 1s) จุดระเบิด Skeleton ที่ปล่อยไว้เพื่อ AOE เร็ว
 
 ---
 
