@@ -1,36 +1,77 @@
-# Weaver
+# 🧵 Weaver — จอมเวทผู้ทอสาย
 
-Unlocks at Lv 131-135, class-change at Starfall Tundra. Max job level 50.
-"A versatile spellweaver who threads support and control, bending the flow of battle to favor their allies."
+![Level Gate](https://img.shields.io/badge/ปลดล็อก-Lv%20131--135-7c5cd6?style=flat-square)
+![Skills](https://img.shields.io/badge/สกิลทั้งหมด-43-0e9c8f?style=flat-square)
+![Grimoire](https://img.shields.io/badge/กริมัวร์-ใส่คลาสไหนก็ได้-a3720a?style=flat-square)
 
-Base class origin unclear (see [../overview.md](../overview.md) open question) — requires far higher level than other advanced classes (26-90 range), and can equip grimoires from **any** class. Likely a prestige/endgame class rather than a standard promotion.
+> คลาสระดับปลายเกม รวมดาเมจ ซัพพอร์ต และการคุมสนามไว้ในตัวเดียว "A versatile spellweaver who threads support and control, bending the flow of battle to favor their allies."
 
-## Full Skill List (43 confirmed)
+> [!NOTE]
+> Base class origin ยังไม่ชัดเจน (ดู [../overview.md](../overview.md)) — ปลดล็อกช้ากว่าคลาสขั้นสูงอื่นมาก (26-90 → 131-135) และใส่กริมัวร์คลาสไหนก็ได้ น่าจะเป็น **prestige/endgame class** มากกว่า advanced class ปกติ
+
+---
+
+## 📜 สกิลทั้งหมด (43 ตัว ยืนยันแล้ว)
+
 Icebolt, Firebolt, Weaver Mastery, Piercing Flurry, Strafing Volley, Venom Strike, Haste, Ice Shard, Fireball, Bash, Impale, Arrow Shower, Venom Coating, Cure, Earthbolt, Thunderbolt, Endure, Air Cutter, Blade Dance, Shadow Step, Holy Light, Earth Spikes, Thunder Storm, Fortify, Stomp, Mark Target, Cloaking, Soul Strike, Suppression Field, Banishment Field, Natural Resistance, Vortex Slash, Steady Hands, Lightning Reflexes, Benediction, Resonance Well, Dissonance Well, Divine Grace, Whirlwind, Inner Focus, Dual Wield Mastery, Heal
 
-Notable: many Weaver skills are shared with other classes (Whirlwind also Warrior, Arrow Shower also Scout, Fireball/Thunder Storm also Mage) — confirms Weaver as a cross-class "jack of all trades" rather than a unique kit.
+หลายสกิลแชร์กับคลาสอื่น (Whirlwind ↔ Warrior, Arrow Shower ↔ Scout, Fireball/Thunder Storm ↔ Mage) → ยืนยันว่า Weaver เป็น "จอมยุทธ์รวมทุกสาย" ไม่ใช่คิทเฉพาะตัว
 
-## Farm Skill Data (confirmed via skill pages)
-| Skill | Element/Type | Requirement | CD | Mana Cost | Dmg/lv | Shared with | AOE? |
-|---|---|---|---|---|---|---|---|
-| Thunder Storm | Wind, water-touch dmg | Thunderbolt Lv1 | 1s | 30 (+15/lv) | +2.5/lv | Mage | Yes |
-| Fireball | Fire, leaves Firewall | Firebolt Lv1 | 1s | 30 (+15/lv) | +1/lv | Mage | Yes |
-| Whirlwind | Neutral melee | Vortex Slash Lv1 | 6s | 10 (+5/lv) | +0.75/lv | Warrior | Yes |
-| Arrow Shower | Neutral ranged | Steady Hands Lv1 | 4s | 7 (+3/lv) | +0.3/lv | Scout | Yes |
+## 🧭 สี่สายทักษะ — เลือกทางที่จะเดิน
 
-Thunder Storm has by far the best dmg-per-mana ratio of the four (2.5/15 vs Fireball's 1/15) — best default farm nuke. Both mage bolts share the same absurdly low 1s cooldown, so mana (not cooldown) is the real constraint for spam-farming.
+| สาย | สกิลเด่น | เหมาะกับ |
+|---|---|---|
+| 🔥 **ฟาร์ม/ดาเมจ** | Thunder Storm, Fireball, Ice Shard, Earth Spikes | เล่นคนเดียว, ฟาร์ม/เลเวลลิ่ง — **แนะนำเป็นสายหลัก** |
+| 🗡️ **ประชิด/Bash** | Bash, Impale, Piercing Flurry, Whirlwind | ไม่อยากบริหารมานา, ชอบระยะประชิด |
+| 💚 **ซัพพอร์ต** | Heal, Cure, Benediction, Divine Grace | เล่นปาร์ตี้บ่อย |
+| 🛡️ **คุมสนาม** | Suppression Field, Banishment Field, Cloaking | PvP / บอสที่ต้องคุมพื้นที่ |
 
-## Farm Build
+---
 
-**Skill path:**
-- Thunderbolt Lv1 → Thunder Storm (max) — primary nuke
-- Firebolt Lv1 → Fireball (max) — secondary/element-swap for Thunder-resistant mobs
-- Earthbolt/Icebolt → Earth Spikes/Ice Shard if points remain, to cover all 4 elements like a Wizard would
+## ⚔️ ตารางสกิลฟาร์ม (ยืนยันจากหน้าสกิลจริง)
 
-**Stats:** INT + Max SP priority (not STR/VIT) — mana cost scales steeply (+15/lv) so SP pool/regen is the bottleneck, not cooldown.
+| สกิล | ธาตุ | ต้องเรียนก่อน | คูลดาวน์ | มานา | ดาเมจ/lv | แชร์กับ |
+|---|---|---|---|---|---|---|
+| ⚡ **Thunder Storm** 🏆 | ลม/น้ำ | Thunderbolt Lv1 | `1s` | `30 (+15/lv)` | `+2.5/lv` | Mage |
+| 🔥 Fireball | ไฟ | Firebolt Lv1 | `1s` | `30 (+15/lv)` | `+1/lv` | Mage |
+| 🌀 Whirlwind | กายภาพ (ประชิด) | Vortex Slash Lv1 | `6s` | `10 (+5/lv)` | `+0.75/lv` | Warrior |
+| 🏹 Arrow Shower | กายภาพ (ระยะไกล) | Steady Hands Lv1 | `4s` | `7 (+3/lv)` | `+0.3/lv` | Scout |
 
-**Gear:** Cooldown reduction or SP regen gear valuable given the 1s skill CD. Since Weaver can equip any class's grimoire, a Wizard/Mage grimoire (elemental dmg% or elemental mana-cost reduction) fits this build best.
+> [!TIP]
+> **Thunder Storm** คุ้มมานาต่อดาเมจสุด (2.5/15 มานา เทียบ Fireball 1/15) — ตัวหลักฟาร์มที่ควรเรียนก่อน ทั้งคู่มี CD แค่ 1 วิ ทำให้ **มานาคือคอขวดจริง ไม่ใช่คูลดาวน์**
 
-**Playstyle:** Play it like a Wizard — pick your element (Thunder Storm default, Fireball/Earth Spikes/Ice Shard as swaps) based on target's weakest resistance, and spam since cooldown is a non-issue at 1s.
+---
 
-**Unverified — test in-game:** exact SP cost table, whether Thunder Storm's "water-touch" tag means it's actually double-typed (Wind + Water) for resist calculations.
+## 🌟 Build ฟาร์ม (สายเวท) — แนะนำเป็นหลัก
+
+```
+Thunderbolt Lv1 → Thunder Storm (max)        ← ดาเมจหลัก
+Firebolt Lv1    → Fireball (max)             ← สลับธาตุเวลามอน resist ฟ้า
+Earthbolt/Icebolt → Earth Spikes/Ice Shard   ← ถ้า point เหลือ ครบ 4 ธาตุ
+```
+
+- **สเตต:** INT + Max SP (ไม่ใช่ STR/VIT) — มานาคอสต์ขึ้นไว (+15/lv)
+- **เกียร์:** ลด Cooldown / เพิ่ม SP Regen + กริมัวร์ Wizard/Mage (ลดมานาธาตุ)
+- **วิธีเล่น:** เล่นเหมือน Wizard ย่อ — สลับธาตุตามจุดอ่อนมอน สแปมได้เพราะ CD 1 วิ
+
+## 🗡️ สาย Bash (ประชิด) — ทางเลือกรอง
+
+| หัวข้อ | รายละเอียด |
+|---|---|
+| สกิลหลัก | Bash, Impale, Piercing Flurry → **Whirlwind** (AOE) |
+| ข้อดี | มานาคอสต์ต่ำกว่าสายเวทมาก (`10+5/lv` เทียบ `30+15/lv`), ไม่ต้องบริหารมานาหนัก |
+| ข้อเสีย | Whirlwind คูลดาวน์ `6s` — ช้ากว่า Thunder Storm ถึง 6 เท่า, ดาเมจ/มานา ด้อยกว่าสายเวทชัดเจนจากตัวเลขที่มี |
+
+> [!WARNING]
+> ยังไม่มีข้อมูลตัวเลขของ **Bash, Impale, Piercing Flurry, Blade Dance** (ยังไม่ได้ดึงหน้าสกิลพวกนี้) ต่างจากสายเวทที่เช็คครบแล้ว — จากข้อมูลเท่าที่มี **สายเวทคุ้มกว่าสาย Bash ชัดเจน** แต่ยังสรุปเต็มไม่ได้จนกว่าจะมีตัวเลขของสกิลกลุ่มนี้
+
+---
+
+> [!IMPORTANT]
+> **สิ่งที่ยังไม่ยืนยัน ต้องทดสอบในเกม:**
+> - ตาราง SP cost แบบเต็มของทุกสกิล
+> - Thunder Storm ที่แปะป้าย "water-touch" นับเป็น 2 ธาตุ (ลม+น้ำ) ตอนคิด resist หรือไม่
+> - ตัวเลขดาเมจ/คูลดาวน์ของสาย Bash (Bash, Impale, Piercing Flurry, Blade Dance)
+
+---
+*อ้างอิงจาก spiritvalewiki.com · เนื้อหายังเป็น theorycraft รอข้อมูลจากการเล่นจริง*
