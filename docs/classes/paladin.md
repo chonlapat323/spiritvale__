@@ -34,7 +34,72 @@
 
 ---
 
-## ⚔️ สายสกิลที่ยืนยันแล้ว (Shield Chain)
+## 🗺️ Knight (ก่อนเปลี่ยนเป็น Paladin) — แผนผังสกิลเต็ม
+
+```
+Spear Mastery (root, max10)           — +atk spear/sword/mace, +max HP
+Increased Regeneration (root, max5)   — +HP regen พาสซีฟ (แชร์กับ Berserker)
+
+Shield Mastery (root, max5) → Fortify (max5) → Reflect Shield (max5) → Counter Stance (max5)
+   [Block+Def]      [HP/Vit/Heal]      [สะท้อนดาเมจ]     [บล็อค+สตันโต้กลับ]
+
+Taunt (root, max5) → Endure (max5)
+  [คุมเป้า]         [Def+กันเสียจังหวะ]
+
+Piercing Flurry (root, max5) → Impale (max5) ─┬→ Air Cutter (max5)      [AOE กวาด+ดีบัฟ]
+   [เปิดคอมโบ]         [จบคอมโบ]              ├→ Spear Quicken (max5)   [atk speed พาสซีฟ]
+                                               └→ Weapon Throw (max5)    [ระยะไกล+ชะลอ]
+```
+
+| สกิล | Max Lv | คูลดาวน์ | มานา | ดาเมจ/lv | ต้องเรียนก่อน |
+|---|---|---|---|---|---|
+| Spear Mastery | 10 | - | - | passive | - |
+| Increased Regeneration | 5 | - | - | passive | - |
+| Shield Mastery | 5 | - | - | passive | - |
+| Fortify | 5 | - | - | passive | Shield Mastery Lv1 |
+| Reflect Shield | 5 | - | - | passive | Fortify Lv1 |
+| Taunt | 5 | 6s(-1/lv) | 10 | - | - |
+| Endure | 5 | - | 10 | - | Taunt Lv1 |
+| Piercing Flurry | 5 | 3s | 7(+3/lv) | +0.4/lv | - |
+| Impale | 5 | 3s | 7(+3/lv) | +0.4/lv (บัฟถ้าคอมโบต่อจาก Flurry) | Piercing Flurry Lv1 |
+| Air Cutter | 5 | 3s | 7(+3/lv) | +0.4/lv, AOE+ดีบัฟ | Impale Lv1 |
+| Spear Quicken | 5 | - | 20 | passive atk speed | Impale Lv1 |
+| Weapon Throw | 5 | 3s | 7(+3/lv) | +0.3/lv, ระยะไกล+ชะลอ | Impale Lv1 |
+
+### ⭐ Counter Stance — ยืนยันจากทูลทิปในเกมจริง (ละเอียดกว่าวิกิมาก)
+
+> [!TIP]
+> **Active skill** ต้องกดเอง ไม่ใช่ auto-proc ตอนบล็อคสำเร็จ — Cooldown 3s, มานา 10, ต้องมี Reflect Shield Lv1
+
+**ขั้นที่ 1 — เข้าสเตตัส "Counter" (2 วินาที คงที่):** Block+100%, Crit+100, ห้ามโจมตี/ขยับ, ปิด Flee
+
+**ขั้นที่ 2 — ถ้าโดนโจมตีระหว่างสเตตัส → ทริกเกอร์ "Counter Slash" อัตโนมัติ:**
+- AOE ระยะประชิด พื้นที่ 3
+- ดาเมจ **50% + 30%/level** ปรับตาม **DEF และ ATK ของตัวเอง** (ไม่ใช่ตัวคูณคงที่ — ยิ่งสเตตแทงค์เยอะ ดาเมจสวนยิ่งแรง)
+- [จบคอมโบ] +50% ดาเมจเพิ่ม
+- ใส่ **Stun 1 วินาที** ให้ศัตรูในพื้นที่ (ห้ามโจมตี/ขยับ/Flee/Block ระหว่างติด)
+
+> [!IMPORTANT]
+> นี่ไม่ใช่แค่กลไกป้องกันเฉยๆ — ดาเมจ Counter Slash อิงจาก DEF+ATK ของผู้เล่นเอง หมายความว่า build แทงค์ที่ทุ่ม DEF/ATK ไม่เสียดาเมจเลย เพราะถูกแปลงเป็นดาเมจสวนกลับโดยตรง แถมเป็น AOE stun ด้วย — เป็น build ที่ทั้งอึด ทั้งคุมสนาม ทั้งมีดาเมจจริง ไม่ใช่แค่ป้องกันอย่างที่ประเมินไว้ตอนแรก
+
+### 🔄 Build "Reflect-Tank" (ยืนยันจาก YouTube ว่า work จริง)
+
+**ส่วนประกอบ:**
+- 🗡️ อาวุธ/เกียร์เพิ่ม **Block chance**
+- 👢 ของสวมใส่เพิ่ม **Move Speed** (สำหรับหนี/รีโพซิชันเวลาโดนรุมหนัก — ยืนยันว่ามาจากไอเทม ไม่ใช่สกิลในทรี Knight)
+- 🛡️ สกิล: Shield Mastery → Fortify → Reflect Shield → **Counter Stance**
+- ⚔️ ดาเมจเสริม (จำเป็น ไม่ใช่แค่พึ่งสะท้อนอย่างเดียว): Piercing Flurry → Impale
+
+**วิธีเล่น:** ยืนรับดาเมจ (Block chance สูง), **Reflect Shield** ทำงาน passive สะท้อนดาเมจอัตโนมัติตลอด, กด **Counter Stance ทุก 3 วิ** เพื่อเปิดหน้าต่างบล็อค+ทริกเกอร์ Counter Slash (AOE dmg+stun), แทรก Piercing Flurry→Impale เป็นดาเมจหลักระหว่างคูลดาวน์ ถ้าโดนรุมหนักใช้ของ Move Speed หนีชั่วคราวแล้ววนกลับมาใหม่
+
+**สรุปสไตล์:** เป็น "low-APM tank" (กดเป็นจังหวะทุก 3 วิ ไม่ใช่กดรัว) ไม่ใช่ full-AFK เพราะ Counter Stance เป็น active skill แต่ก็ไม่ต้องคุมซับซ้อนเหมือน build อื่น เหมาะคนที่อยากเล่นสบายๆ แต่ยังได้ทั้งดาเมจและความอึด
+
+> [!NOTE]
+> **ยังไม่ยืนยัน:** ไอเทม Move Speed ตัวไหนที่เหมาะกับช่วงเลเวล Knight เป้าหมายถัดไปคือหาเกียร์คู่ Block-weapon + Move-Speed-boots ที่ตรงช่วงเลเวลนี้
+
+---
+
+## ⚔️ สายสกิลที่ยืนยันแล้ว (Shield Chain) — Paladin
 
 `Faith → Holy Shield → Shield Bash → Shield Throw` (Sacrifice แยกออกจาก Faith โดยตรง)
 
